@@ -15,7 +15,7 @@ function App() {
     const [query, setQuery] = useState('');
     const [weather, setWeather] = useState({});
     
-    const search = async event => {
+    const search = async (event, query) => {
         if (event.key === 'Enter') {
             axios.get(`${api.base}weather?q=${query}&units=metric&appid=${api.key}`)
                 .then(response => {
