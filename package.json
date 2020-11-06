@@ -1,5 +1,6 @@
 {
-  "name": "weather-application",
+  "name": "nicks-weather-application",
+  "homepage": "https://weatherapp.interstellaragency.co.uk/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
